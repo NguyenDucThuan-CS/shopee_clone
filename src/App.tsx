@@ -1,13 +1,8 @@
 import './App.css'
-
+import useRouteElement from './useRouteElement'
 function App() {
- 
-
-  return (
-    <div className='bg-red-500'>
-        jkjskjdksdksdk
-    </div>
-  )
+  const routeElement = useRouteElement()
+  return <div>{routeElement}</div>
 }
 
 export default App
